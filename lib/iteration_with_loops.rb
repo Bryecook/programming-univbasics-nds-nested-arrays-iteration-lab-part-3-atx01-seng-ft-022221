@@ -10,9 +10,9 @@ while row_index < src.count do
     string=src[row_index][element_index]
   end
     element_index+=1
+    sentence=combined+string
 end
   row_index+=1
-  sentence=combined+string
 end
 sentence
 end
