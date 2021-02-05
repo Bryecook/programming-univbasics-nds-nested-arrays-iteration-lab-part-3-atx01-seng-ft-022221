@@ -8,10 +8,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[row_index][element_index].class==String
     string=src[row_index][element_index]
-  else
-    string=""
-  end
     sentence+=string+" "
+  end
     element_index+=1
 end
   row_index+=1
