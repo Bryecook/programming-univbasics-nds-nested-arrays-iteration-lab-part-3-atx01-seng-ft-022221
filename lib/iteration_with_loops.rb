@@ -12,5 +12,5 @@ while row_index < src.count do
   row_index+=1
   combined << string
 end
-
+combined
 end
