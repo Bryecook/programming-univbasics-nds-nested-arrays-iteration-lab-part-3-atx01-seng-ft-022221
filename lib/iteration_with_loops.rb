@@ -12,7 +12,7 @@ while row_index < src.count do
     string=src[row_index][element_index]
   end
     element_index+=1
-    word=space+string
+    word=string+space
     sentence+=word
 end
   row_index+=1
