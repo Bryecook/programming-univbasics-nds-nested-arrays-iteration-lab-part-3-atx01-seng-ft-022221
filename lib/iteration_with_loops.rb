@@ -11,11 +11,10 @@ while row_index < src.count do
     if src[row_index][element_index].class==String
     string=src[row_index][element_index]
   end
-    word=string+space
-    sentence+=word
+    sentence+=string+" "
     element_index+=1
 end
   row_index+=1
 end
-sentence.split.reverse.uniq.reverse.join(' ')
+sentence
 end
