@@ -9,7 +9,7 @@ while row_index < src.count do
     string=src[row_index][element_index]
   end
     element_index+=1
-    sentence+=string
+    sentence.to_s+=string
 end
   row_index+=1
 end
